@@ -14,6 +14,11 @@ repositories {
 }
 
 configure<PublishingExtension> {
+    repositories {
+        maven {
+            url = uri("$buildDir/repo")
+        }
+    }
     publications {
         register("mavenJava", MavenPublication::class) {
             from(components["java"])
