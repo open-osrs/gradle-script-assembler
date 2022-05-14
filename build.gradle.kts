@@ -6,7 +6,7 @@ plugins {
 apply<MavenPublishPlugin>()
 
 group = "com.openosrs"
-version = "1.0.1"
+version = "1.0.2-SNAPSHOT"
 
 repositories {
     mavenCentral()
