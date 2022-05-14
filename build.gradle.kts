@@ -26,7 +26,7 @@ configure<PublishingExtension> {
     }
 }
 
-val oprsVersion = "4.25.0"
+val oprsVersion = "latest.release"
 
 dependencies {
     compileOnly(gradleApi())
